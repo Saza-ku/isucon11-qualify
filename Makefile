@@ -51,5 +51,8 @@ alpsave:
 .PHONY: alpload
 alpload:
 	sudo alp ltsv --load /tmp/alp.dump --sort $(ALPSORT) --reverse -o count,method,uri,min,max,sum,avg,p99 -q
-
+.PHONY: alpreset
+alpreset:
+	sudo rm /var/log/nginx/access.log; \
+	sudo systemctl restart nginx.service;
 
