@@ -1,0 +1,319 @@
+make all --print-data-base --no-builtin-variables --no-builtin-rules --question
+make: *** No rule to make target 'all'.  Stop.
+
+# GNU Make 4.2.1
+# Built for x86_64-pc-linux-gnu
+# Copyright (C) 1988-2016 Free Software Foundation, Inc.
+# License GPLv3+: GNU GPL version 3 or later <http://gnu.org/licenses/gpl.html>
+# This is free software: you are free to change and redistribute it.
+# There is NO WARRANTY, to the extent permitted by law.
+
+# Make data base, printed on Mon Jul  4 01:19:16 2022
+
+# Variables
+
+# automatic
+<D = $(patsubst %/,%,$(dir $<))
+# automatic
+?F = $(notdir $?)
+# default
+.SHELLFLAGS := -c
+# environment
+XDG_SESSION_CLASS = user
+# environment
+VSCODE_AGENT_FOLDER = /home/isucon/.vscode-server
+# environment
+XDG_SESSION_TYPE = tty
+# environment
+VSCODE_LOG_NATIVE = false
+# automatic
+?D = $(patsubst %/,%,$(dir $?))
+# automatic
+@D = $(patsubst %/,%,$(dir $@))
+# automatic
+@F = $(notdir $@)
+# default
+MAKE_VERSION := 4.2.1
+# makefile
+CURDIR := /home/isucon/webapp
+# makefile
+SHELL = /bin/sh
+# environment
+VSCODE_NLS_CONFIG = {"locale":"en","availableLanguages":{}}
+# environment
+_ = /home/isucon/.vscode-server/bin/4af164ea3a06f701fe3e89a2bcbb421d2026b68f/node
+# makefile (from 'Makefile', line 13)
+MYSQL_HOST = "127.0.0.1"
+# makefile (from 'Makefile', line 14)
+MYSQL_PORT = 3306
+# makefile (from 'Makefile', line 1)
+MAKEFILE_LIST :=  Makefile
+# makefile (from 'Makefile', line 43)
+ALPM = "/api/isu/.+/icon,/api/isu/.+/graph,/api/isu/.+/condition,/api/isu/[-a-z0-9]+,/api/condition/[-a-z0-9]+,/api/catalog/.+,/api/condition\?,/isu/........-....-.+,/\?jwt=[-a-z0-9]+"
+# 'override' directive
+GNUMAKEFLAGS := 
+# environment
+VSCODE_AMD_ENTRYPOINT = vs/workbench/api/node/extensionHostProcess
+# environment
+DBUS_SESSION_BUS_ADDRESS = unix:path=/run/user/1100/bus
+# environment
+VSCODE_VERBOSE_LOGGING = true
+# environment
+LESSOPEN = | /usr/bin/lesspipe %s
+# environment
+VSCODE_CWD = /home/isucon
+# environment
+GOPROXY = https://proxy.golang.org,direct
+# environment
+SSH_CONNECTION = 10.0.2.2 59940 10.0.2.15 22
+# environment
+PATH = /home/isucon/local/go/bin:/home/isucon/.vscode-server/bin/4af164ea3a06f701fe3e89a2bcbb421d2026b68f/bin/remote-cli:/home/isucon/.cargo/bin:/home/isucon/local/ruby/bin:/home/isucon/local/python/bin:/home/isucon/local/php/bin:/home/isucon/local/perl/bin:/home/isucon/local/node/bin:/home/isucon/go/bin:/home/isucon/.cargo/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin
+# environment
+XDG_RUNTIME_DIR = /run/user/1100
+# environment
+GOPATH = /home/isucon/go
+# environment
+VSCODE_LOG_STACK = false
+# environment
+VSCODE_IPC_HOOK_CLI = /run/user/1100/vscode-ipc-b2e78336-084b-472a-ba53-c432c39a60c6.sock
+# default
+.FEATURES := target-specific order-only second-expansion else-if shortest-stem undefine oneshell archives jobserver output-sync check-symlink load
+# environment
+LS_COLORS = 
+# makefile (from 'Makefile', line 42)
+ALPSORT = sum
+# automatic
+%F = $(notdir $%)
+# environment
+VSCODE_PIPE_LOGGING = true
+# environment
+PWD = /home/isucon/webapp
+# makefile (from 'Makefile', line 19)
+MYSQL = mysql -h$(MYSQL_HOST) -P$(MYSQL_PORT) -u$(MYSQL_USER) -p$(MYSQL_PASS) $(MYSQL_DBNAME)
+# default
+.LOADED := 
+# automatic
+*D = $(patsubst %/,%,$(dir $*))
+# environment
+GOMODCACHE = /home/isucon/go/pkg/mod
+# environment
+HOME = /home/isucon
+# environment
+LESSCLOSE = /usr/bin/lesspipe %s %s
+# environment
+LOGNAME = isucon
+# environment
+APPLICATION_INSIGHTS_NO_DIAGNOSTIC_CHANNEL = true
+# automatic
++F = $(notdir $+)
+# environment
+VSCODE_HANDLES_UNCAUGHT_ERRORS = true
+# automatic
+^D = $(patsubst %/,%,$(dir $^))
+# environment
+MAKELEVEL := 0
+# default
+MAKE = $(MAKE_COMMAND)
+# default
+MAKECMDGOALS := all
+# environment
+SHLVL = 1
+# makefile (from 'Makefile', line 44)
+OUTFORMAT = count,method,uri,min,max,sum,avg,p99
+# environment
+XDG_SESSION_ID = 3
+# environment
+USER = isucon
+# makefile
+.DEFAULT_GOAL := build
+# environment
+GOROOT = /home/isucon/local/go
+# automatic
+%D = $(patsubst %/,%,$(dir $%))
+# default
+MAKE_COMMAND := make
+# default
+.VARIABLES := 
+# automatic
+*F = $(notdir $*)
+# makefile
+MAKEFLAGS = pqrR
+# environment
+MFLAGS = -pqrR
+# environment
+SSH_CLIENT = 10.0.2.2 59940 22
+# makefile (from 'Makefile', line 16)
+MYSQL_DBNAME = isucondition
+# automatic
++D = $(patsubst %/,%,$(dir $+))
+# environment
+BROWSER = /home/isucon/.vscode-server/bin/4af164ea3a06f701fe3e89a2bcbb421d2026b68f/bin/helpers/browser.sh
+# environment
+VSCODE_HANDLES_SIGPIPE = true
+# default
+MAKEFILES := 
+# automatic
+<F = $(notdir $<)
+# makefile (from 'Makefile', line 20)
+SLOW_LOG = /tmp/slow-query.log
+# makefile (from 'Makefile', line 17)
+MYSQL_PASS = isucon
+# environment
+LC_ALL = C
+# automatic
+^F = $(notdir $^)
+# default
+SUFFIXES := 
+# default
+.INCLUDE_DIRS = /usr/include /usr/local/include /usr/include
+# makefile (from 'Makefile', line 15)
+MYSQL_USER = isucon
+# default
+.RECIPEPREFIX := 
+# default
+MAKE_HOST := x86_64-pc-linux-gnu
+# environment
+LANG = C
+# environment
+VSCODE_EXTHOST_WILL_SEND_SOCKET = true
+# environment
+MOTD_SHOWN = pam
+# variable set hash-table stats:
+# Load=83/1024=8%, Rehash=0, Collisions=10/108=9%
+
+# Pattern-specific Variable Values
+
+# No pattern-specific variable values.
+
+# Directories
+
+# . (device 2049, inode 1536008): 14 files, no impossibilities.
+
+# 14 files, no impossibilities in 1 directories.
+
+# Implicit Rules
+
+# No implicit rules.
+
+# Files
+
+alpsave:
+#  Phony target (prerequisite of .PHONY).
+#  Implicit rule search has not been done.
+#  File does not exist.
+#  File has not been updated.
+#  recipe to execute (from 'Makefile', line 50):
+	sudo alp ltsv --file=/var/log/nginx/access.log --pos /tmp/alp.pos --dump /tmp/alp.dump --sort $(ALPSORT) --reverse -o $(OUTFORMAT) -m $(ALPM) -q
+
+# Not a target:
+all:
+#  Command line target.
+#  Implicit rule search has been done.
+#  File does not exist.
+#  File has not been updated.
+
+.PHONY: build pprof slow-on slow-off slow-show alp alpsave alpload alpreset
+#  Implicit rule search has not been done.
+#  Modification time never checked.
+#  File has not been updated.
+
+alpreset:
+#  Phony target (prerequisite of .PHONY).
+#  Implicit rule search has not been done.
+#  File does not exist.
+#  File has not been updated.
+#  recipe to execute (from 'Makefile', line 56):
+	sudo rm /var/log/nginx/access.log; \
+	sudo systemctl restart nginx.service;
+
+alp:
+#  Phony target (prerequisite of .PHONY).
+#  Implicit rule search has not been done.
+#  File does not exist.
+#  File has not been updated.
+#  recipe to execute (from 'Makefile', line 47):
+	sudo alp ltsv --file=/var/log/nginx/access.log --nosave-pos --pos /tmp/alp.pos --sort $(ALPSORT) --reverse -o $(OUTFORMAT) -m $(ALPM) -q
+
+# Not a target:
+Makefile:
+#  Implicit rule search has been done.
+#  Last modified 2022-07-03 16:55:04.261603519
+#  File has been updated.
+#  Successfully updated.
+
+slow-off:
+#  Phony target (prerequisite of .PHONY).
+#  Implicit rule search has not been done.
+#  File does not exist.
+#  File has not been updated.
+#  recipe to execute (from 'Makefile', line 32):
+	$(MYSQL) -e "set global slow_query_log = OFF;"
+
+build:
+#  Phony target (prerequisite of .PHONY).
+#  Implicit rule search has not been done.
+#  File does not exist.
+#  File has not been updated.
+#  recipe to execute (from 'Makefile', line 4):
+	cd ~/webapp/go; \
+	go build -o isucondition main.go; \
+	sudo systemctl restart isucondition.go.service;
+
+pprof:
+#  Phony target (prerequisite of .PHONY).
+#  Implicit rule search has not been done.
+#  File does not exist.
+#  File has not been updated.
+#  recipe to execute (from 'Makefile', line 10):
+	go tool pprof -http=0.0.0.0:8080 /home/isucon/webapp/go/isucondition http://localhost:6060/debug/pprof/profile
+
+# Not a target:
+.DEFAULT:
+#  Implicit rule search has not been done.
+#  Modification time never checked.
+#  File has not been updated.
+
+alpload:
+#  Phony target (prerequisite of .PHONY).
+#  Implicit rule search has not been done.
+#  File does not exist.
+#  File has not been updated.
+#  recipe to execute (from 'Makefile', line 53):
+	sudo alp ltsv --load /tmp/alp.dump --sort $(ALPSORT) --reverse -o count,method,uri,min,max,sum,avg,p99 -q
+
+ 
+slow-show:
+#  Phony target (prerequisite of .PHONY).
+#  Implicit rule search has not been done.
+#  File does not exist.
+#  File has not been updated.
+#  recipe to execute (from 'Makefile', line 38):
+	sudo mysqldumpslow -s t $(SLOW_LOG) | head -n 20
+
+slow-on:
+#  Phony target (prerequisite of .PHONY).
+#  Implicit rule search has not been done.
+#  File does not exist.
+#  File has not been updated.
+#  recipe to execute (from 'Makefile', line 26):
+	sudo rm $(SLOW_LOG)
+	sudo systemctl restart mysql
+	$(MYSQL) -e "set global slow_query_log_file = '$(SLOW_LOG)'; set global long_query_time = 0.001; set global slow_query_log = ON;"
+
+# files hash-table stats:
+# Load=14/1024=1%, Rehash=0, Collisions=0/50=0%
+# VPATH Search Paths
+
+# No 'vpath' search paths.
+
+# No general ('VPATH' variable) search path.
+
+# strcache buffers: 1 (0) / strings = 29 / storage = 233 B / avg = 8 B
+# current buf: size = 8162 B / used = 233 B / count = 29 / avg = 8 B
+
+# strcache performance: lookups = 68 / hit rate = 57%
+# hash-table stats:
+# Load=29/8192=0%, Rehash=0, Collisions=1/68=1%
+# Finished Make data base on Mon Jul  4 01:19:16 2022
+
+ 
